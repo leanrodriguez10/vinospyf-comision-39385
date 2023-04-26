@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   
+    background-image: url(../assets/img/logoweb-html.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+head{
+    background-color: rgb(27, 27, 11);
+    
+    
+}
+body{
+    background-color: rgb(239, 206, 206);
+}
+
+
+.h2{
+    text-align: center;
+    font-style: initial;
+    font-size: 80x; color: lightcyan
+    
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color:rgb(67, 3, 67);
+    font-size: 25px;
+
+}
+
+.navbar li{
+    padding: 5px;
+    display: inline;
+    flex-direction: row-reverse;
+    gap: 20px;
+
+}
+
+
+.parrafo{
+    background-color: rgba(114, 7, 160, 0.276);
+    color: white; 
+    font-size: 20px;
+    text-align: justify;
+
+
+    
+}
+
+
+.logo{
+    width: 150px;
+    border-radius: 50%;
+   
+}
+
+
+
+
+.combo{
+    margin: 40px; 
+    margin-bottom: 40px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+
+.card-1{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+
+}
+
+
+.card-2{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+   
+}
+
+.card-3{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(249, 249, 244);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+  
+}
+    
+.card-4{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(254, 254, 252);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+}
+
+.card-5{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(249, 249, 247);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+
+}
+
+.card-6{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(246, 247, 240);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+
+}
+
+.card-7{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+    
+
+}
+
+.card-8{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(250, 250, 248);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+}
+
+.card-9{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(250, 250, 248);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+    
+}
+
+
+.box{
+    width: 200px;
+    justify-content: space-evenly;  
+}
+
+
+
+footer{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pie{
+    color: wheat;
+}
+
+
+
+
+.listado{
+    color: white;
+    font-size:60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgba(114, 7, 160, 0.237);
+    text-align: center;
+
+  
+}
+
+section h1{
+    color: rgba(79, 5, 148, 0.509);
+    font-size: 100px;
+    margin: 0px 0px 40px;
+    font-style: oblique;
+   
+
+}
+
+footer section{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+
+}
+
+main h1{
+    color: rgba(79, 5, 148, 0.509);
+    font-size: 50px;
+    margin: 0px 0px 40px;
+    font-style: oblique;
+}
+
+
+
+.parrafo2{
+    font-size: 40px;
+    color: white;
+    margin: 5px 5px 5px 5px;
+    text-align: left;
+    background-color: rgba(165, 42, 42, 0.107);
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+
+}
+
+.vinopyf{
+    font-size: 30px;
+
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 60% 60%;
+    padding: 30px;
+    justify-self:left;
+    column-gap: 10px;
+    justify-items:left;
+    border-radius: 50px
+}
+
+
+
+
+.bodegas{
+    background-color: white;
+    
+}
+
+
+
+.viñedos1{
+    width: 200px;
+    height:250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.365);
+    border-radius: 20px;        
+   
+}
+
+.viñedos2{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.37);
+    border-radius: 20px;        
+   
+}
+
+.viñedos3{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.379);
+    border-radius: 20px;        
+   
+}
+
+.viñedos4{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.37);
+    border-radius: 20px;        
+   
+}
+
+.viñedos5{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.345);
+    border-radius: 20px;        
+   
+}
+
+.viñedos6{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.37);
+    border-radius: 20px;        
+   
+}
+
+.viñedos7{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.356);
+    border-radius: 20px;        
+   
+}
+
+.viñedos8{
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.363);
+    border-radius: 20px;        
+   
+}
+
+.viñedos9{
+    width: 180px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.361);
+    border-radius: 20px;        
+   
+}
+
+.bodegasgrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+    justify-items: center;
+}
+
+.titulos{
+    color: white;
+}
+
+.cristian{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(114, 7, 160, 0.276);
+    text-align: center;
+    
+}
+
+.titulobodegas{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(114, 7, 160, 0.276);
+    text-align: center;
+
+}
+
+.titulocontacto{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(114, 7, 160, 0.276);
+    text-align: center;
+    font-size:larger
+
+}
+
+.encabezado{
+    background-color: rgba(39, 12, 65, 0.16);
+
+}
+
+.titulos{
+     background-color: rgba(114, 7, 160, 0.276);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+}
+
+.grid-consultas{
+    display: grid;
+    grid-template-columns: 90%; 
+    justify-content: center;
+}
+
+.costo{
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+}
+
+.costo{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.precio{
+    background-color: rgba(0, 0, 0, 0.491);
+    color: white;
+}
+
+.precio1{
+    background-color: rgba(0, 0, 0, 0.491);
+    color: white;
+
+}
+.costo2{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+    
+}
+.costo3{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+
+}
+
+.costo4{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo5{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo6{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo7{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo8{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+
+}
+
+.costo9{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+
+}
+
+.precio1{
+    color: white;
+}
+
+.precio2{
+    color: white;
+}
+.precio3{
+    color: white;
+}
+.precio4{
+    color: white;
+}
+.precio5{
+    color: white;
+}
+.precio6{
+    color: white;
+}
+.precio7{
+    color: white;
+}
+.precio8{
+    color: white;
+}
+.precio9{
+    color: white;
+}
