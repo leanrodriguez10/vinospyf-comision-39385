@@ -8,18 +8,31 @@
 
 body{
    
-    background-image: url(../assets/img/logoweb-html.jpg);
+    background-image: url(../assets/img/fondoweb5.jpg);
     width: 100%;
     height: 100vh; 
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 
+.body-bodegas{
+    background-image: url(../assets/img/fondoweb2-html.jpg);
+}
 
+.body-combos{
+    background-image: url(../assets/img/logoweb-html.jpg);
+}
+
+.body-contacto{
+    background-image: url(../assets/img/fondoweb4.jpg);
+}
+
+.body-nosotros{
+    background-image: url(../assets/img/nosotros.jpg);
+}
 
 head{
     background-color: rgb(27, 27, 11);
@@ -43,23 +56,22 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
-    
+    color: white;
+    font-size: ;
     
 }
 
 .navbar li a{
     text-decoration: none;
-    color:rgb(67, 3, 67);
+    color: white;
     font-size: 25px;
-
 }
 
 .navbar li{
     padding: 5px;
     display: inline;
     flex-direction: row-reverse;
-    gap: 20px;
-
+    gap: 25px;
 }
 
 
@@ -68,20 +80,19 @@ body{
     color: white; 
     font-size: 20px;
     text-align: justify;
-
-
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.139);
+    margin: 10px;
+    gap: 10px;
     
-}
-
-
-.logo{
-    width: 150px;
-    border-radius: 50%;
    
 }
 
 
-
+.logo{
+    width: 250px;
+    border-radius: 50%;
+   
+}
 
 .combo{
     margin: 40px; 
@@ -92,7 +103,10 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 10px;
+    align-items: center;
+  
+
 }
 
 
@@ -220,24 +234,11 @@ header{
 }
 
 
-
-footer{
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
-.pie{
-    color: wheat;
-}
-
-
-
-
 .listado{
     color: white;
-    font-size:60px;
+    font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:rgba(114, 7, 160, 0.237);
+    background-color:rgba(114, 7, 160, 0.676);
     text-align: center;
 
   
@@ -253,9 +254,14 @@ section h1{
 }
 
 footer section{
+    display: flex;
+    flex-direction: row;
     color: white;
     font-size: 25px;
-    text-align: left;
+    text-align: right;
+
+
+
 
 }
 
@@ -274,6 +280,7 @@ main h1{
     margin: 5px 5px 5px 5px;
     text-align: left;
     background-color: rgba(165, 42, 42, 0.107);
+    
 
 }
 
@@ -286,11 +293,12 @@ main h1{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-items: center;
-
 }
 
+
+
 .vinopyf{
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -301,7 +309,8 @@ main h1{
     justify-self:left;
     column-gap: 10px;
     justify-items:left;
-    border-radius: 50px
+    border-radius: 50px;
+    gap: 10px;
 }
 
 
@@ -315,80 +324,91 @@ main h1{
 
 
 .viñedos1{
-    width: 200px;
-    height:250px;
+    width: 220px;
+    height:220px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.365);
+    background-color:white;
     border-radius: 20px;        
-   
+    gap: 20px;
 }
 
 .viñedos2{
     width: 200px;
-    height: 250px;
+    height: 220px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.37);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px;    
+    gap: 20px; 
    
 }
 
 .viñedos3{
     width: 200px;
-    height: 250px;
+    height: 220px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.379);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px;  
+    gap: 20px;    
    
 }
 
 .viñedos4{
     width: 200px;
-    height: 250px;
+    height: 220px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.37);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px; 
+    gap: 20px;         
    
 }
 
 .viñedos5{
     width: 200px;
-    height: 250px;
+    height: 220px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.345);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;          
    
 }
 
 .viñedos6{
     width: 200px;
-    height: 250px;
+    height: 220px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color:black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.37);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;        
    
 }
 
@@ -396,12 +416,14 @@ main h1{
     width: 200px;
     height: 250px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.356);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px;     
+    gap: 20px;    
    
 }
 
@@ -409,26 +431,29 @@ main h1{
     width: 200px;
     height: 250px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.363);
-    border-radius: 20px;        
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;       
    
 }
 
 .viñedos9{
-    width: 180px;
+    width: 200px;
     height: 250px;
     margin: 30px;
+    border: 2px solid;
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 254);
+    color: black;
     text-align: center;
-    background-color: rgba(114, 7, 160, 0.361);
-    border-radius: 20px;        
-   
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;
 }
 
 .bodegasgrid{
@@ -444,7 +469,7 @@ main h1{
 .cristian{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgba(114, 7, 160, 0.276);
+    background-color: rgba(114, 7, 160, 0.678);
     text-align: center;
     
 }
@@ -452,7 +477,7 @@ main h1{
 .titulobodegas{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgba(114, 7, 160, 0.276);
+    background-color: rgba(114, 7, 160, 0.664);
     text-align: center;
 
 }
@@ -460,10 +485,9 @@ main h1{
 .titulocontacto{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgba(114, 7, 160, 0.276);
+    background-color: rgba(114, 7, 160, 0.731);
     text-align: center;
-    font-size:larger
-
+    font-size: 50px;
 }
 
 .encabezado{
@@ -472,14 +496,14 @@ main h1{
 }
 
 .titulos{
-     background-color: rgba(114, 7, 160, 0.276);
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     text-align: center;
+    background-color: rgba(114, 7, 160, 0.769);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .grid-consultas{
     display: grid;
-    grid-template-columns: 90%; 
+    grid-template-columns: 50%; 
     justify-content: center;
 }
 
@@ -574,3 +598,37 @@ main h1{
 .precio9{
     color: white;
 }
+
+.pie2{
+    color: white;
+}
+
+.comienzo{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    
+}
+
+.footer{
+    width: 100%;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.178);
+    
+
+}
+
+.footer2{
+    background-color: rgba(137, 43, 226, 0.557);
+}
+.footer3{
+    background-color: rgba(137, 43, 226, 0.557);
+}
+.footer4{
+    background-color: rgba(137, 43, 226, 0.557);
+}
+.footer5{
+    background-color: rgba(137, 43, 226, 0.557);
+}
+
