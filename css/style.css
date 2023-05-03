@@ -8,7 +8,7 @@
 
 body{
    
-    background-image: url(../assets/img/fondoweb5.jpg);
+    background-image: url(../assets/img/fondonosotros.jpg);
     width: 100%;
     height: 100vh; 
     background-repeat: no-repeat;
@@ -19,19 +19,19 @@ body{
 }
 
 .body-bodegas{
-    background-image: url(../assets/img/fondoweb2-html.jpg);
+    background-image: url(../assets/img/fondobodega.jpg);
 }
 
 .body-combos{
-    background-image: url(../assets/img/logoweb-html.jpg);
+    background-image: url(../assets/img/fondo.jpg);
 }
 
 .body-contacto{
-    background-image: url(../assets/img/fondoweb4.jpg);
+    background-image: url(../assets/img/contactonuevo.jpg);
 }
 
 .body-nosotros{
-    background-image: url(../assets/img/nosotros.jpg);
+    background-image: url(../assets/img/dos.jpg);
 }
 
 head{
@@ -55,16 +55,19 @@ body{
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content:space-evenly;
     color: white;
-    font-size: ;
+    font-size: 25px;
+    gap: 8px;    
+    flex-direction: row-reverse;
     
 }
 
 .navbar li a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .navbar li{
@@ -82,9 +85,7 @@ body{
     text-align: justify;
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.139);
     margin: 10px;
-    gap: 10px;
-    
-   
+    gap: 10px;  
 }
 
 
@@ -105,7 +106,6 @@ header{
     justify-content: space-between;
     margin: 10px;
     align-items: center;
-  
 
 }
 
@@ -245,7 +245,7 @@ header{
 }
 
 section h1{
-    color: rgba(79, 5, 148, 0.509);
+    color: rgba(148, 5, 5, 0.509);
     font-size: 100px;
     margin: 0px 0px 40px;
     font-style: oblique;
@@ -266,7 +266,7 @@ footer section{
 }
 
 main h1{
-    color: rgba(79, 5, 148, 0.509);
+    color: rgba(79, 5, 148, 0.744);
     font-size: 50px;
     margin: 0px 0px 40px;
     font-style: oblique;
@@ -275,10 +275,10 @@ main h1{
 
 
 .parrafo2{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     margin: 5px 5px 5px 5px;
-    text-align: left;
+    text-align: center;
     background-color: rgba(165, 42, 42, 0.107);
     
 
@@ -298,7 +298,10 @@ main h1{
 
 
 .vinopyf{
-    font-size: 40px;
+    font-size: 20px;
+    opacity: 68%;
+    
+
 
 }
 
@@ -324,136 +327,155 @@ main h1{
 
 
 .viñedos1{
-    width: 220px;
-    height:220px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color:white;
-    border-radius: 20px;        
-    gap: 20px;
+    border-radius: 50px;        
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    justify-content:end;
 }
 
 .viñedos2{
-    width: 200px;
-    height: 220px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;    
-    gap: 20px; 
+    border-radius: 50px; 
+    background-image: url(../assets/img/catena.png);   
+    background-repeat: no-repeat;
+    justify-content:end;
    
 }
 
 .viñedos3{
-    width: 200px;
-    height: 220px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;  
-    gap: 20px;    
+    border-radius: 50px;
+    background-image: url(../assets/img/tempus-html.webp);  
+    background-repeat: no-repeat;
+    justify-content: end;   
    
 }
 
 .viñedos4{
-    width: 200px;
-    height: 220px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px; 
-    gap: 20px;         
+    background-image: url(../assets/img/catena.png);
+    background-repeat: no-repeat;
+    border-radius: 50px; 
+    justify-content: end;        
    
 }
 
 .viñedos5{
-    width: 200px;
-    height: 220px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;
-    gap: 20px;          
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;   
+           
    
 }
 
 .viñedos6{
-    width: 200px;
-    height: 220px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color:black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;
-    gap: 20px;        
+    background-image: url(../assets/img/catena.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end; 
    
 }
 
 .viñedos7{
-    width: 200px;
-    height: 250px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;     
-    gap: 20px;    
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;   
    
 }
 
 .viñedos8{
-    width: 200px;
-    height: 250px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;
-    gap: 20px;       
+    background-image: url(../assets/img/catena.png);  
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;      
    
 }
 
 .viñedos9{
-    width: 200px;
-    height: 250px;
-    margin: 30px;
+    width: 310px;
+    height:380px;
+    margin: 40px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     color: black;
     text-align: center;
     background-color: white;
-    border-radius: 20px;
-    gap: 20px;
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;   
 }
 
 .bodegasgrid{
@@ -467,10 +489,12 @@ main h1{
 }
 
 .cristian{
+    width: 100%;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
     background-color: rgba(114, 7, 160, 0.678);
-    text-align: center;
+    text-align:center;
     
 }
 
@@ -490,13 +514,10 @@ main h1{
     font-size: 50px;
 }
 
-.encabezado{
-    background-color: rgba(39, 12, 65, 0.16);
 
-}
 
 .titulos{
-    background-color: rgba(114, 7, 160, 0.769);
+    background-color: rgba(114, 7, 160, 0.651);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -613,22 +634,180 @@ main h1{
 
 .footer{
     width: 100%;
+    height: 100px;
     color: white;
-    background-color: rgba(137, 43, 226, 0.178);
+    background-color: rgba(238, 130, 238, 0.651)
     
 
 }
 
 .footer2{
-    background-color: rgba(137, 43, 226, 0.557);
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651)
 }
 .footer3{
-    background-color: rgba(137, 43, 226, 0.557);
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651)
 }
 .footer4{
-    background-color: rgba(137, 43, 226, 0.557);
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651);
+    margin-top: 50px;
+    
 }
 .footer5{
-    background-color: rgba(137, 43, 226, 0.557);
+    width: 100%;
+    height: 100px;
+    background-color: rgba(238, 130, 238, 0.651)
 }
 
+
+.form-label{
+    color: white;
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.form-control{
+    font-size: 45px;
+    
+}
+
+
+
+@media screen and (max-width:1024px){
+    .cristian{
+        width:auto;
+        font-size: 40px;
+        justify-content: center;
+    }
+    .titulos{
+        
+        font-size: 60px;
+    }
+    
+    .navbar{
+        font-size: small;    
+    }   
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .cristian{
+        width: 100%;    
+        justify-content: center;
+        font-size: 50px;
+    }
+    .vinopyf{
+        font-size: medium;
+    }
+    .grid3{
+        grid-template-columns: 1fr;
+        justify-items: center;
+       
+    }
+    .navbar{
+        width: auto;
+        flex-direction: column-reverse;
+        font-size: medium;   
+    }  
+    .comienzo{
+        grid-template-columns: 1fr;
+    }
+    .titulos{
+        font-size: 40px;;
+        background-color: rgb(114, 7, 160);
+    }
+    
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:425px){
+    .cristian{
+        width:auto;
+        font-size: 37px;
+        justify-items: center;  
+    }
+    .navbar{
+        width:auto;
+        flex-direction: column-reverse;
+    }
+    .comienzo{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:375px){
+    .cristian{
+        width:auto;
+        font-size: 35px;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+        flex-direction: column-reverse;
+    } 
+}
+
+
+
+
+
+
+@media screen and (max-width:320px){
+    .cristian{
+        width:auto;
+        font-size:30px;
+        justify-content: center;   
+        background-color: rgb(114, 7, 160);
+
+    }
+    .navbar{
+        width: auto;
+        flex-direction: column-reverse; 
+        align-content: center;
+        text-decoration:underline;
+        
+    }.vinopyf{
+        margin: auto;
+    }
+    .parrafo2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .titulos{
+        font-size: 30px;
+        background-color: rgb(114, 7, 160);
+    }
+    .logo{
+        width: 100px;
+        display: none;
+    }
+  
+}
