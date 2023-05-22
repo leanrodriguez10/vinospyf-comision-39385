@@ -1,0 +1,794 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   
+    background-image: url(../assets/img/fondonosotros.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.body-bodegas{
+    background-image: url(../assets/img/fondobodega.jpg);
+}
+
+.body-combos{
+    background-image: url(../assets/img/fondo.jpg);
+}
+
+.body-contacto{
+    background-image: url(../assets/img/contactonuevo.jpg);
+}
+
+.body-nosotros{
+    background-image: url(../assets/img/dos.jpg);
+}
+
+head{
+    background-color: rgb(27, 27, 11);
+    
+    
+}
+body{
+    background-color: rgb(239, 206, 206);
+}
+
+
+.h2{
+    text-align: center;
+    font-style: initial;
+    font-size: 80x; color: lightcyan
+    
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: white;
+    font-size: 25px;
+    gap: 8px;    
+    flex-direction: row-reverse;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar li{
+    padding: 5px;
+    display: inline;
+    flex-direction: row-reverse;
+    gap: 25px;
+}
+
+
+.parrafo{
+    background-color: rgba(114, 7, 160, 0.276);
+    color: white; 
+    font-size: 20px;
+    text-align: justify;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.139);
+    margin: 10px;
+    gap: 10px;  
+}
+
+
+.logo{
+    width: 250px;
+    border-radius: 50%;
+   
+}
+
+.combo{
+    margin: 40px; 
+    margin-bottom: 40px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+
+}
+
+
+.card-1{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+
+}
+
+
+.card-2{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+   
+}
+
+.card-3{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(249, 249, 244);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+  
+}
+    
+.card-4{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(254, 254, 252);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px;        
+}
+
+.card-5{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(249, 249, 247);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+
+}
+
+.card-6{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(246, 247, 240);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+
+}
+
+.card-7{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+    
+
+}
+
+.card-8{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(250, 250, 248);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+}
+
+.card-9{
+    width: 200px;
+    height: 199px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(250, 250, 248);
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.276);
+    border-radius: 20px; 
+    
+}
+
+
+.box{
+    width: 200px;
+    justify-content: space-evenly;  
+}
+
+
+.listado{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgba(114, 7, 160, 0.676);
+    text-align: center; 
+}
+
+section h1{
+    color: rgba(148, 5, 5, 0.509);
+    font-size: 100px;
+    margin: 0px 0px 40px;
+    font-style: oblique;
+   
+
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+
+
+
+
+}
+
+main h1{
+    color: rgba(79, 5, 148, 0.744);
+    font-size: 50px;
+    margin: 0px 0px 40px;
+    font-style: oblique;
+}
+
+
+
+.parrafo2{
+    font-size: 30px;
+    color: white;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.107);
+    
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+
+
+
+.vinopyf{
+    font-size: 20px;
+    opacity: 68%;
+    
+
+
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 60% 60%;
+    padding: 30px;
+    justify-self:left;
+    column-gap: 10px;
+    justify-items:left;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+
+
+
+.bodegas{
+    background-color: white;
+    
+}
+
+
+
+.viñedos1{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color:white;
+    border-radius: 50px;        
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    justify-content:end;
+}
+
+.viñedos2{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px; 
+    background-image: url(../assets/img/catena.png);   
+    background-repeat: no-repeat;
+    justify-content:end;
+   
+}
+
+.viñedos3{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    background-image: url(../assets/img/tempus-html.webp);  
+    background-repeat: no-repeat;
+    justify-content: end;   
+   
+}
+
+.viñedos4{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    background-image: url(../assets/img/catena.png);
+    background-repeat: no-repeat;
+    border-radius: 50px; 
+    justify-content: end;        
+   
+}
+
+.viñedos5{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;   
+           
+   
+}
+
+.viñedos6{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color:black;
+    text-align: center;
+    background-color: white;
+    background-image: url(../assets/img/catena.png);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end; 
+   
+}
+
+.viñedos7{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;   
+   
+}
+
+.viñedos8{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    background-image: url(../assets/img/catena.png);  
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;      
+   
+}
+
+.viñedos9{
+    width: 310px;
+    height:380px;
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: white;
+    background-image: url(../assets/img/tempus-html.webp);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    justify-content: end;   
+}
+
+.bodegasgrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+    justify-items: center;
+}
+
+.titulos{
+    color: white;
+}
+
+.cristian{
+    width: 100%;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    background-color: rgba(114, 7, 160, 0.678);
+    text-align:center;
+    
+}
+
+.titulobodegas{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(114, 7, 160, 0.664);
+    text-align: center;
+
+}
+
+.titulocontacto{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(114, 7, 160, 0.731);
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.titulos{
+    background-color: rgba(114, 7, 160, 0.651);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.grid-consultas{
+    display: grid;
+    grid-template-columns: 50%; 
+    justify-content: center;
+}
+
+.costo{
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+}
+
+.costo{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.precio{
+    background-color: rgba(0, 0, 0, 0.491);
+    color: white;
+}
+
+.precio1{
+    background-color: rgba(0, 0, 0, 0.491);
+    color: white;
+
+}
+.costo2{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+    
+}
+.costo3{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+
+}
+
+.costo4{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo5{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo6{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo7{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+}
+
+.costo8{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+
+}
+
+.costo9{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+
+}
+
+.precio1{
+    color: white;
+}
+
+.precio2{
+    color: white;
+}
+.precio3{
+    color: white;
+}
+.precio4{
+    color: white;
+}
+.precio5{
+    color: white;
+}
+.precio6{
+    color: white;
+}
+.precio7{
+    color: white;
+}
+.precio8{
+    color: white;
+}
+.precio9{
+    color: white;
+}
+
+.pie2{
+    color: white;
+}
+
+.comienzo{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651)
+    
+
+}
+
+.footer2{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651)
+}
+.footer3{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651)
+}
+.footer4{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(238, 130, 238, 0.651);
+    margin-top: 50px;
+    
+}
+.footer5{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(238, 130, 238, 0.651)
+}
+
+
+.form-label{
+    color: white;
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.form-control{
+    font-size: 45px;
+    
+}
+
+
+
+@media screen and (max-width:1024px){
+    .cristian{
+        width:auto;
+        font-size: 40px;
+        justify-content: center;
+    }
+    .titulos{
+        
+        font-size: 60px;
+    }
+    
+    .navbar{
+        font-size: small;    
+    }   
+}
+
+@media screen and (max-width:768px){
+    .cristian{
+        width: 100%;    
+        justify-content: center;
+        font-size: 50px;
+    }
+    .vinopyf{
+        font-size: medium;
+    }
+    .grid3{
+        grid-template-columns: 1fr;
+        justify-items: center;
+       
+    }
+    .navbar{
+        width: auto;
+        flex-direction: column-reverse;
+        font-size: medium;   
+    }  
+    .comienzo{
+        grid-template-columns: 1fr;
+    }
+    .titulos{
+        font-size: 40px;;
+        background-color: rgb(114, 7, 160);
+    }
+    
+    
+}
+
+
+@media screen and (max-width:425px){
+    .cristian{
+        width:auto;
+        font-size: 37px;
+        justify-items: center;  
+    }
+    .navbar{
+        width:auto;
+        flex-direction: column-reverse;
+    }
+    .comienzo{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+
+
+@media screen and (max-width:375px){
+    .cristian{
+        width:auto;
+        font-size: 35px;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+        flex-direction: column-reverse;
+    } 
+}
+
+
+
+
+@media screen and (max-width:320px){
+    .cristian{
+        width:auto;
+        font-size:30px;
+        justify-content: center;   
+        background-color: rgb(114, 7, 160);
+
+    }
+    .navbar{
+        width: auto;
+        flex-direction: column-reverse; 
+        align-content: center;
+        text-decoration:underline;
+        
+    }.vinopyf{
+        margin: auto;
+    }
+    .parrafo2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .titulos{
+        font-size: 30px;
+        background-color: rgb(114, 7, 160);
+    }
+    .logo{
+        width: 100px;
+        display: none;
+    }
+  
+}

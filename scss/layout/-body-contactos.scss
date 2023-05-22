@@ -1,0 +1,33 @@
+.body-contacto {
+	background-image: url(../assets/img/contactonuevo.jpg);
+}
+form {
+	width:auto;
+	height: auto;
+	align-items: center;
+	color: $background-color_6;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+input {
+	display: block;
+	margin-bottom: 10px;
+}
+input[type="submit"] {
+	background-color:hsl(200, 89%, 22%);
+	color: $color_1;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_8;
+	}
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+
+}

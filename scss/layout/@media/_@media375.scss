@@ -1,0 +1,35 @@
+@media screen and (max-width:375px) {
+	.cristian {
+		width: auto;
+		font-size: 35px;
+		justify-content: center;
+	}
+	.navbar {
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+	.vinospyf{
+		margin: auto;
+	}
+	.logo{
+		width: 100px;
+		display: none;
+	}
+	.social-icons {
+		width: auto;
+		height: 35px;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.parrafo {
+		text-align: justify;
+		font-size:8px;
+		justify-content: space-around;
+		grid-template-columns: 1fr;
+		margin:0px;
+	}
+	.sectio h1 {
+		background-color: $background-color_10;
+	}
+
+}

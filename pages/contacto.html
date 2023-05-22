@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinos PyF</title>
+    <meta name="description" content="Nos podes enviar cualquier tipo de consulta sobre precios, envios, costo de envios, combos de vinos, regaos empresariales.">
+    <meta name="keywords" content="bendito vinos y vinilos, catador de vinos, 	
+    catar vinos">
+    <title>Contacto - Vinos PyF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="shortcut icon" href="../assets/img/vino2.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="body-contacto">
     <header class="encabezado">
         <div class="vinopyf">
-            <a href="../index.html"><img class="logo" src="../assets/img/nuevologo-html.jpeg" alt=""></a>
+            <a href="../index.html"><img class="logo" src="../assets/img/FyP Vinos-8.png" alt=""></a>
         </div>
             <nav>
                 <ul class="navbar">
@@ -22,37 +27,36 @@
                     <li><a href="./nosotros.html">NOSOTROS</a></li>
                 </ul>
             </nav>
-        </div>
     </header>
     
     <main>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+        <form class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <input type="submit" value="Enviar">
+        </form>
     </main>
     <footer>
-        <div class="footer3">
-        <section>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="" alt="">
-                instagram
-            </a> 
-            <a href="https://es-la.facebook.com/" target="_blank">
-                <img src="" alt="">
-                facebook
+        <div class="social-icons">
+            <a href="https://www.facebook.com/tu_pagina" target="_blank">
+                <i class="fab fa-facebook"></i>
             </a>
-            <a href="https://web.whatsapp.com/" target="_blank">
-                <img src="" alt="">
-                whatsapp
+            <a href="https://www.instagram.com/tu_cuenta" target="_blank">
+                <i class="fab fa-instagram"></i>
             </a>
-        </section>
+            <a href="https://wa.me/tu_numero" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
         </div>
     </footer>
+
 
 </body>
 

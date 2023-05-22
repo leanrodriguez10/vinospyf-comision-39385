@@ -1,0 +1,28 @@
+@media screen and (max-width:425px) {
+	.cristian {
+		width: auto;
+		font-size: 37px;
+		justify-items: center;
+	}
+	.navbar {
+		width: auto;
+		flex-direction: column-reverse;
+	}
+	.comienzo {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+	.social-icons {
+		width: auto;
+		height: 35px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.logo{
+		width: 100px;
+		display: none;
+	}
+	.section h1 {
+		background-color: $background-color_10;
+	}
+	
+}

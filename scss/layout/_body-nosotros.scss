@@ -1,0 +1,22 @@
+.body-nosotros {
+	background-image: url(../assets/img/comienzo.jpg);
+}
+.titulos {
+	color: $color_2;
+	background-color: $background-color_10;
+	font-family: $font-family_1;
+	text-align: center;
+}
+.parrafo2 {
+	font-size: 30px;
+	color: $color_2;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+	background-color: $background-color_5;
+}
+.comienzo {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	gap: 10px;
+}
