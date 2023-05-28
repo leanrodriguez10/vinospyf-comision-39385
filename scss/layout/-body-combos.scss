@@ -1,5 +1,5 @@
 .body-combos {
-	background-image: url(../assets/img/fondo.jpg);
+	background-image: url(../assets/img/fondonosotros.jpg);
 }
 .listado{
     color: white;
@@ -10,147 +10,158 @@
 }
 .grid2 {
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	justify-items: center;
+    padding-top: 30px;
 	
 }
 .card-1 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_3;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+    justify-content: flex-end;
+    padding-bottom: 10px;
 	.costo{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
+        color: rgb(240, 232, 232);
+		font-size: 15px;
+    }
+    .precio1{
         color: white;
-	}
-	
+		text-decoration: none;
+    }
 }
+
 .card-2 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_4;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+    justify-content: flex-end;
+    padding-bottom: 10px;
 	.costo2{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
         color: white;
+		font-size: 15px;
+		
 	}
+    .precio2{
+        color: white;
+		text-decoration: none;
+    }
 	
 }
 .card-3 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_5;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+	justify-content: flex-end;
+	padding-bottom: 10px;
 	.costo3{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
         color: white;
+		font-size: 15px;
 	}
+    .precio3{
+        color: white;
+		text-decoration: none;
+    }
 	
 }
 .card-4 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_6;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+	justify-content: flex-end;
+	padding-bottom: 10px;
 	.costo4{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
         color: white;
+		font-size: 15px;
 	}
+    .precio4{
+        color: white;
+		text-decoration: none;
+    }
 	
 }
 .card-5 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_7;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+    justify-content: flex-start;
+    padding-bottom: 1opx;
 	.costo5{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
         color: white;
+		font-size: 15px;
 	}
+    .precio5{
+        color: white;
+		text-decoration: none;
+    }
 }
+
 .card-6 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
+	margin: 10px;
 	display: flex;
 	flex-direction: column;
-	color: $color_8;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+    justify-content: center;
 	.costo6{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color:$color_11;
         color: white;
+		font-size: 15px;
 	}	
+    .precio6{
+        color: white;
+		text-decoration: none;
+    }
 }
 .card-7 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_3;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+	justify-content: flex-start;
+	padding-bottom: 10px;
 	.costo7{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
         color: white;
+		font-size: 15px;
 	}
+    .precio7{
+        color: white;
+		text-decoration: none;
+    }
 } 
 .card-8 {
 	width: 200px;
-	height: 199px;
-	margin: 40px;
+	height: 250px;
 	display: flex;
 	flex-direction: column;
-	color: $color_9;
 	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
+    justify-content: flex-start;
+	padding-bottom: 10px;
 	.costo8{
-		background-color: rgba(5, 0, 0, 0.477);
+		background-color: $color_11;
         color: white;
-	}	
-}
-.card-9 {
-	width: 200px;
-	height: 199px;
-	margin: 40px;
-	display: flex;
-	flex-direction: column;
-	color: $color_9;
-	text-align: center;
-	background-color: $background-color_3;
-	border-radius: 20px;
-	.costos9{
-		background-color: rgba(5, 0, 0, 0.477);
-        color: white;
+		font-size: 15px;
 	}
-	
+    .precio8{
+        color: white;
+		text-decoration: none;
+    }	
 }

@@ -9,141 +9,97 @@
 }
 .bodegasgrid {
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 }
 .viñedos1 {
-	width: 310px;
-	height: 380px;
+	width: 240px;
+	height: 390px;
 	margin: 40px;
-	border: 2px solid;
+	border: 1px solid;
 	display: flex;
 	flex-direction: column;
-	color: $color_12;
+	color: $color_2;
 	text-align: center;
-	background-color: $background-color_6;
-	border-radius: 50px;
-	background-image: url(../assets/img/tempus-html.webp);
+	background-color: $background-color_9;
+	border-radius: 10%;
+	background-image: url(../assets/img/algodon.jpg);
 	background-repeat: no-repeat;
-	justify-content: end;
+	justify-content: space-evenly;
+   
 }
 .viñedos2 {
-	width: 310px;
-	height: 380px;
+	width: 240px;
+	height: 390px;
 	margin: 40px;
-	border: 2px solid;
+	border: 1px solid;
 	display: flex;
 	flex-direction: column;
-	color: $color_12;
+	color: $color_2;
 	text-align: center;
-	background-color: $background-color_6;
-	border-radius: 50px;
-	background-image: url(../assets/img/catena.png);
+	background-color: $background-color_9;
+	border-radius: 10%;
+	background-image: url(../assets/img/alfa-crux.jpg);
 	background-repeat: no-repeat;
-	justify-content: end;
+	justify-content: space-evenly;
 }
 .viñedos3 {
-	width: 310px;
-	height: 380px;
+	width: 240px;
+	height: 390px;
 	margin: 40px;
-	border: 2px solid;
+	border: 1px solid;
 	display: flex;
 	flex-direction: column;
-	color: $color_12;
+	color: $color_2;
 	text-align: center;
-	background-color: $background-color_6;
-	border-radius: 50px;
-	background-image: url(../assets/img/tempus-html.webp);
+	background-color: $background-color_9;
+	border-radius: 10%;
+	background-image: url(../assets/img/atamisque.jpg);
 	background-repeat: no-repeat;
-	justify-content: end;
+	justify-content: space-evenly;
 }
 .viñedos4 {
-	width: 310px;
-	height: 380px;
+	width: 240px;
+	height: 390px;
 	margin: 40px;
-	border: 2px solid;
+	border: 1px solid;
 	display: flex;
 	flex-direction: column;
-	color: $color_12;
+	color: $color_2;
 	text-align: center;
-	background-color: $background-color_6;
-	background-image: url(../assets/img/catena.png);
+	background-color: $background-color_9;
+	background-image: url(../assets/img/bodega-trapiche.jpg);
 	background-repeat: no-repeat;
-	border-radius: 50px;
-	justify-content: end;
+	border-radius: 10%;
+	justify-content: space-evenly;
 }
 .viñedos5 {
-	width: 310px;
-	height: 380px;
+	width: 240px;
+	height: 390px;
 	margin: 40px;
-	border: 2px solid;
+	border: 1px solid;
 	display: flex;
 	flex-direction: column;
-	color: $color_12;
+	color: $color_2;
 	text-align: center;
-	background-color: $background-color_6;
-	background-image: url(../assets/img/tempus-html.webp);
+	background-color: $background-color_9;
+	background-image: url(../assets/img/tempus-alba.jpg);
 	background-repeat: no-repeat;
-	border-radius: 50px;
-	justify-content: end;
+	border-radius: 10%;
+	justify-content: space-evenly;
 }
 .viñedos6 {
-	width: 310px;
-	height: 380px;
+	width: 240px;
+	height: 390px;
 	margin: 40px;
-	border: 2px solid;
+	border: 1px solid;
 	display: flex;
 	flex-direction: column;
-	color: $color_12;
+	color: $color_2;
 	text-align: center;
-	background-color: $background-color_6;
-	background-image: url(../assets/img/catena.png);
+	background-color: $background-color_9;
+	background-image: url(../assets/img/esteco.jpg);
 	background-repeat: no-repeat;
-	border-radius: 50px;
-	justify-content: end;
-}
-.viñedos7 {
-	width: 310px;
-	height: 380px;
-	margin: 40px;
-	border: 2px solid;
-	display: flex;
-	flex-direction: column;
-	color: $color_12;
-	text-align: center;
-	background-color: $background-color_6;
-	background-image: url(../assets/img/tempus-html.webp);
-	background-repeat: no-repeat;
-	border-radius: 50px;
-	justify-content: end;
-}
-.viñedos8 {
-	width: 310px;
-	height: 380px;
-	margin: 40px;
-	border: 2px solid;
-	display: flex;
-	flex-direction: column;
-	color: $color_12;
-	text-align: center;
-	background-color: $background-color_6;
-	background-image: url(../assets/img/catena.png);
-	background-repeat: no-repeat;
-	border-radius: 50px;
-	justify-content: end;
-}
-.viñedos9 {
-	width: 310px;
-	height: 380px;
-	margin: 40px;
-	border: 2px solid;
-	display: flex;
-	flex-direction: column;
-	color: $color_12;
-	text-align: center;
-	background-color: $background-color_6;
-	background-image: url(../assets/img/tempus-html.webp);
-	background-repeat: no-repeat;
-	border-radius: 50px;
-	justify-content: end;
+	border-radius: 10%;
+	justify-content :space-evenly;
 }

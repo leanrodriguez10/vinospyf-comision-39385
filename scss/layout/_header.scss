@@ -1,13 +1,13 @@
 header {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px;
+	margin: 5px;
 	align-items: center;
 	img{margin: 20px;
 		height: 280px;
 		width: 300px;
 		border-radius: 50%;
-		font-size: 20px;    
+		font-size: 20px; 
 	}
 }
 .navbar {
@@ -15,7 +15,7 @@ header {
 	flex-direction: row;
 	justify-content: space-evenly;
 	color: $color_2;
-	font-size: 25px;
+	font-size: 60px;
 	gap: 8px;
 	flex-direction: row-reverse;
 	li {
@@ -25,13 +25,13 @@ header {
 			font-size: 20px;
 			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 		}
-		padding: 5px;
+		padding: 4px;
 		display: inline;
 		flex-direction: row-reverse;
-		gap: 26px;
+		gap: 5px;
 	}
 	:hover{
-		color: hsl(200, 91%, 13%);
+		color: hsl(56, 88%, 59%);
 	}
 }
 

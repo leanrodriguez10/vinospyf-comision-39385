@@ -7,7 +7,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 5px;
   align-items: center; }
   header img {
     margin: 20px;
@@ -21,24 +21,24 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   color: white;
-  font-size: 25px;
+  font-size: 60px;
   gap: 8px;
   flex-direction: row-reverse; }
   .navbar li {
-    padding: 5px;
+    padding: 4px;
     display: inline;
     flex-direction: row-reverse;
-    gap: 26px; }
+    gap: 5px; }
     .navbar li a {
       text-decoration: none;
       color: white;
       font-size: 20px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
   .navbar :hover {
-    color: #032b3f; }
+    color: #f2e63a; }
 
 body {
-  background-image: url(../assets/img/fondoweb5.jpg);
+  background-image: url(../assets/img/mendoza.jpg);
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -92,12 +92,13 @@ main section div img {
   color: white;
   background-color: rgba(114, 7, 160, 0.473);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-align: center; }
+  text-align: center;
+  justify-content: flex-end; }
 
 .parrafo2 {
   font-size: 30px;
   color: white;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
   text-align: center;
   background-color: rgba(165, 42, 42, 0.107); }
 
@@ -138,7 +139,7 @@ input[type="submit"] {
   flex-direction: column; }
 
 .body-combos {
-  background-image: url(../assets/img/fondo.jpg); }
+  background-image: url(../assets/img/fondonosotros.jpg); }
 
 .listado {
   color: white;
@@ -149,134 +150,137 @@ input[type="submit"] {
 
 .grid2 {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  justify-items: center; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding-top: 30px; }
 
 .card-1 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: white;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-end;
+  padding-bottom: 10px; }
   .card-1 .costo {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: #f0e8e8;
+    font-size: 15px; }
+  .card-1 .precio1 {
+    color: white;
+    text-decoration: none; }
 
 .card-2 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: #fffffe;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-end;
+  padding-bottom: 10px; }
   .card-2 .costo2 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-2 .precio2 {
+    color: white;
+    text-decoration: none; }
 
 .card-3 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: #f9f9f4;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-end;
+  padding-bottom: 10px; }
   .card-3 .costo3 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-3 .precio3 {
+    color: white;
+    text-decoration: none; }
 
 .card-4 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: #fefefc;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-end;
+  padding-bottom: 10px; }
   .card-4 .costo4 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-4 .precio4 {
+    color: white;
+    text-decoration: none; }
 
 .card-5 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: #f9f9f7;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-start;
+  padding-bottom: 1opx; }
   .card-5 .costo5 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-5 .precio5 {
+    color: white;
+    text-decoration: none; }
 
 .card-6 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
-  color: #f6f7f0;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: center; }
   .card-6 .costo6 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-6 .precio6 {
+    color: white;
+    text-decoration: none; }
 
 .card-7 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: white;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-start;
+  padding-bottom: 10px; }
   .card-7 .costo7 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-7 .precio7 {
+    color: white;
+    text-decoration: none; }
 
 .card-8 {
   width: 200px;
-  height: 199px;
-  margin: 40px;
+  height: 250px;
   display: flex;
   flex-direction: column;
-  color: #fafaf8;
   text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
+  justify-content: flex-start;
+  padding-bottom: 10px; }
   .card-8 .costo8 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
-
-.card-9 {
-  width: 200px;
-  height: 199px;
-  margin: 40px;
-  display: flex;
-  flex-direction: column;
-  color: #fafaf8;
-  text-align: center;
-  background-color: #0d0113;
-  border-radius: 20px; }
-  .card-9 .costos9 {
-    background-color: rgba(5, 0, 0, 0.477);
-    color: white; }
+    background-color: rgba(79, 5, 148, 0.744);
+    color: white;
+    font-size: 15px; }
+  .card-8 .precio8 {
+    color: white;
+    text-decoration: none; }
 
 .body-bodegas {
   background-image: url(../assets/img/fondobodega.jpg); }
@@ -289,143 +293,101 @@ input[type="submit"] {
 
 .bodegasgrid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center; }
 
 .viñedos1 {
-  width: 310px;
-  height: 380px;
+  width: 240px;
+  height: 390px;
   margin: 40px;
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
-  border-radius: 50px;
-  background-image: url(../assets/img/tempus-html.webp);
+  background-color: rgba(114, 7, 160, 0.731);
+  border-radius: 10%;
+  background-image: url(../assets/img/algodon.jpg);
   background-repeat: no-repeat;
-  justify-content: end; }
+  justify-content: space-evenly; }
 
 .viñedos2 {
-  width: 310px;
-  height: 380px;
+  width: 240px;
+  height: 390px;
   margin: 40px;
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
-  border-radius: 50px;
-  background-image: url(../assets/img/catena.png);
+  background-color: rgba(114, 7, 160, 0.731);
+  border-radius: 10%;
+  background-image: url(../assets/img/alfa-crux.jpg);
   background-repeat: no-repeat;
-  justify-content: end; }
+  justify-content: space-evenly; }
 
 .viñedos3 {
-  width: 310px;
-  height: 380px;
+  width: 240px;
+  height: 390px;
   margin: 40px;
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
-  border-radius: 50px;
-  background-image: url(../assets/img/tempus-html.webp);
+  background-color: rgba(114, 7, 160, 0.731);
+  border-radius: 10%;
+  background-image: url(../assets/img/atamisque.jpg);
   background-repeat: no-repeat;
-  justify-content: end; }
+  justify-content: space-evenly; }
 
 .viñedos4 {
-  width: 310px;
-  height: 380px;
+  width: 240px;
+  height: 390px;
   margin: 40px;
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
-  background-image: url(../assets/img/catena.png);
+  background-color: rgba(114, 7, 160, 0.731);
+  background-image: url(../assets/img/bodega-trapiche.jpg);
   background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: end; }
+  border-radius: 10%;
+  justify-content: space-evenly; }
 
 .viñedos5 {
-  width: 310px;
-  height: 380px;
+  width: 240px;
+  height: 390px;
   margin: 40px;
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
-  background-image: url(../assets/img/tempus-html.webp);
+  background-color: rgba(114, 7, 160, 0.731);
+  background-image: url(../assets/img/tempus-alba.jpg);
   background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: end; }
+  border-radius: 10%;
+  justify-content: space-evenly; }
 
 .viñedos6 {
-  width: 310px;
-  height: 380px;
+  width: 240px;
+  height: 390px;
   margin: 40px;
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
-  background-image: url(../assets/img/catena.png);
+  background-color: rgba(114, 7, 160, 0.731);
+  background-image: url(../assets/img/esteco.jpg);
   background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: end; }
+  border-radius: 10%;
+  justify-content: space-evenly; }
 
-.viñedos7 {
-  width: 310px;
-  height: 380px;
-  margin: 40px;
-  border: 2px solid;
-  display: flex;
-  flex-direction: column;
-  color: black;
-  text-align: center;
-  background-color: white;
-  background-image: url(../assets/img/tempus-html.webp);
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: end; }
-
-.viñedos8 {
-  width: 310px;
-  height: 380px;
-  margin: 40px;
-  border: 2px solid;
-  display: flex;
-  flex-direction: column;
-  color: black;
-  text-align: center;
-  background-color: white;
-  background-image: url(../assets/img/catena.png);
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: end; }
-
-.viñedos9 {
-  width: 310px;
-  height: 380px;
-  margin: 40px;
-  border: 2px solid;
-  display: flex;
-  flex-direction: column;
-  color: black;
-  text-align: center;
-  background-color: white;
-  background-image: url(../assets/img/tempus-html.webp);
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: end; }
+.footer {
+  background-color: red; }
 
 .social-icons {
   width: 100%;
@@ -464,7 +426,9 @@ input[type="submit"] {
     font-size: small; }
   .social-icons {
     width: auto;
-    height: 35px; } }
+    height: 35px; }
+  .grid2 {
+    grid-template-columns: 1fr 1fr 1fr; } }
 
 @media screen and (max-width: 768px) {
   .cristian {
@@ -483,11 +447,17 @@ input[type="submit"] {
   .comienzo {
     grid-template-columns: 1fr; }
   .titulos {
-    font-size: 40px;
-    background-color: rgba(114, 7, 160, 0.123); }
+    font-size: 40px; }
   .social-icons {
     width: auto;
-    height: 35px; } }
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0); }
+  .grid2 {
+    grid-template-columns: 1fr; }
+  .bodegasgrid {
+    grid-template-columns: 1fr 1fr; }
+  .titulobodegas {
+    background-color: rgba(0, 0, 0, 0); } }
 
 @media screen and (max-width: 425px) {
   .cristian {
@@ -508,7 +478,11 @@ input[type="submit"] {
     width: 100px;
     height: 140px; }
   .section h1 {
-    background-color: rgba(114, 7, 160, 0.473); } }
+    background-color: rgba(114, 7, 160, 0.473); }
+  .grid2 {
+    grid-template-columns: 1fr; }
+  .bodegasgrid {
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 375px) {
   .cristian {
