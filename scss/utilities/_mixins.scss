@@ -1,0 +1,10 @@
+@mixin grid{
+    display: grid;
+    grid-template-columns: 60% 60%;
+    padding: 5px;
+    justify-self: left;
+    column-gap: 10px;
+    justify-items: start;
+    gap: 5px;
+}
+

@@ -33,7 +33,7 @@ header {
       text-decoration: none;
       color: white;
       font-size: 20px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
   .navbar :hover {
     color: #f2e63a; }
 
@@ -99,14 +99,25 @@ main section div img {
   font-size: 30px;
   color: white;
   margin: 10px 10px 10px 10px;
-  text-align: center;
-  background-color: rgba(165, 42, 42, 0.107); }
+  text-align: justify;
+  background-color: rgba(165, 42, 42, 0.107);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-items: center; }
 
 .comienzo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  gap: 10px; }
+  gap: 5px;
+  align-items: start;
+  padding-bottom: 9px; }
+  .comienzo .foto1, .comienzo .foto2, .comienzo .foto3, .comienzo .foto4, .comienzo .foto5, .comienzo .foto6 {
+    color: white;
+    text-align: center;
+    background-color: rgba(114, 7, 160, 0.664);
+    border: 1px solid;
+    padding-bottom: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
 
 .body-contacto {
   background-image: url(../assets/img/contactonuevo.jpg); }
@@ -144,7 +155,7 @@ input[type="submit"] {
 .listado {
   color: white;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgba(114, 7, 160, 0.473);
   text-align: center; }
 
@@ -156,12 +167,12 @@ input[type="submit"] {
 
 .card-1 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-end;
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
   .card-1 .costo {
     background-color: rgba(79, 5, 148, 0.744);
     color: #f0e8e8;
@@ -172,12 +183,12 @@ input[type="submit"] {
 
 .card-2 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-end;
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
   .card-2 .costo2 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -188,12 +199,12 @@ input[type="submit"] {
 
 .card-3 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-end;
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
   .card-3 .costo3 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -204,12 +215,12 @@ input[type="submit"] {
 
 .card-4 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-end;
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
   .card-4 .costo4 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -220,12 +231,12 @@ input[type="submit"] {
 
 .card-5 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-start;
-  padding-bottom: 1opx; }
+  padding-bottom: 25px; }
   .card-5 .costo5 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -236,12 +247,13 @@ input[type="submit"] {
 
 .card-6 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 25px; }
   .card-6 .costo6 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -252,12 +264,12 @@ input[type="submit"] {
 
 .card-7 {
   width: 200px;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-start;
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
   .card-7 .costo7 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -267,13 +279,13 @@ input[type="submit"] {
     text-decoration: none; }
 
 .card-8 {
-  width: 201px;
-  height: 250px;
+  width: 200px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: flex-start;
-  padding-bottom: 10px; }
+  padding-bottom: 25px; }
   .card-8 .costo8 {
     background-color: rgba(79, 5, 148, 0.744);
     color: white;
@@ -386,16 +398,13 @@ input[type="submit"] {
   border-radius: 10%;
   justify-content: space-evenly; }
 
-.footer {
-  background-color: red; }
-
 .social-icons {
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color: violet;
   font-size: 30px;
-  margin-top: 44px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 8px; }
 
 .social-icons a {
   color: #06496a;
@@ -405,15 +414,6 @@ input[type="submit"] {
 
 .social-icons a:hover {
   color: white; }
-
-.form-label {
-  color: white;
-  font-size: 35px;
-  margin: 5px;
-  padding: 5px; }
-
-.form-control {
-  font-size: 45px; }
 
 @media screen and (max-width: 1024px) {
   .cristian {
@@ -450,14 +450,16 @@ input[type="submit"] {
     font-size: 40px; }
   .social-icons {
     width: auto;
-    height: 35px;
+    height: 5px;
     background-color: rgba(0, 0, 0, 0); }
   .grid2 {
     grid-template-columns: 1fr; }
   .bodegasgrid {
     grid-template-columns: 1fr 1fr; }
   .titulobodegas {
-    background-color: rgba(0, 0, 0, 0); } }
+    background-color: rgba(0, 0, 0, 0); }
+  .social-icons a {
+    color: white; } }
 
 @media screen and (max-width: 425px) {
   .cristian {
@@ -504,7 +506,7 @@ input[type="submit"] {
     background-color: rgba(0, 0, 0, 0); }
   .parrafo {
     text-align: justify;
-    font-size: 8px;
+    font-size: 12px;
     justify-content: space-around;
     grid-template-columns: 1fr;
     margin: 0px; }

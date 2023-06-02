@@ -12,12 +12,39 @@
 	font-size: 30px;
 	color: $color_2;
 	margin: 10px 10px 10px 10px;
-	text-align: center;
+	text-align: justify;
 	background-color: $background-color_5;
+	font-family: $font-family_1;
+	justify-items: center;
 }
 .comienzo {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
-	gap: 10px;
+	gap: 5px;
+	align-items: start;
+	padding-bottom: 9px;
+	.foto1 {
+		color: $color_2;
+		text-align: center;
+		background-color: $background-color_8;
+		border: 1px solid;
+		padding-bottom: 25px;
+		font-family: $font-family_1;
+	}
+	.foto2 {
+		@extend .foto1
+	}
+	.foto3 {
+		@extend .foto1
+	}
+	.foto4 {
+		@extend .foto1
+	}
+	.foto5 {
+		@extend .foto1
+	}
+	.foto6 {
+		@extend .foto1
+	}
 }
